@@ -1,13 +1,12 @@
-import './App.css'
-import { Button } from '@/components/ui/button'
+import "./App.css";
+import Dashboard from "@/components/admin/Dashboard";
 
 function App() {
-
   return (
     <>
-      <Button variant="destructive">Destructive</Button>
+      <Dashboard />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
